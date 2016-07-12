@@ -1,0 +1,66 @@
+
+body {
+    background: #036fab;
+    font-size: 14px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    color: #000000;  
+    margin: 10px;
+}
+
+
+h1 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    font-size:  30px;
+    font-weight: bold;
+    margin: 20 px;
+    padding: 0px;
+    color: #045491;
+    text-align: center;
+}
+
+
+
+
+h2 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    font-size:  20px;
+    font-weight: bold;
+    margin: 10 px;
+    padding: 0px;
+    color: #045491;
+    text-align: left;
+}
+
+a:link, a:visited {
+    color: #045491;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+a:link:hover, a:visited:hover  {
+    color: #e62727;
+    font-weight : bold;
+    text-decoration : underline;
+}
+
+.icono-agregar{
+   background-image: url("../imagenes/icono-agregar.gif") !important;
+   background: #e62727;
+   background-size: 100% 100%;
+}
+.icono-actualizar{
+background: url(../imagenes/icono-actualizar.png)!important;
+background-size: 100% 100%;
+border: none;
+}
+.icono-eliminarUsu{
+background-image: url(../imagenes/icono-eliminarUsu.png)!important;
+
+}
+
+.icono-guardar{
+   background-image: url(../imagenes/icono-guardar.png) !important;  
+}
+.icono-limpiar{
+ background-image: url(../imagenes/icono-limpiar.png)!important;   
+}
